@@ -1,9 +1,9 @@
-import PostPreview from './post-preview'
-import Post from '../types/post'
+import PostPreview from './post-preview';
+import Post from '../types/post';
 
 type Props = {
-  posts: Post[]
-}
+  posts: Post[];
+};
 
 const MoreStories = ({ posts }: Props) => {
   return (
@@ -12,6 +12,8 @@ const MoreStories = ({ posts }: Props) => {
         More Stories
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 md:gap-x-16 lg:gap-x-32 gap-y-20 md:gap-y-32 mb-32">
+        {/* <div className="grid grid-cols-1 gap-x-16 gap-y-20 mb-32"> */}
+        {/* <div className="text-xs justify-content:center"> */}
         {posts.map((post) => (
           <PostPreview
             key={post.slug}
@@ -25,7 +27,7 @@ const MoreStories = ({ posts }: Props) => {
         ))}
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default MoreStories
+export default MoreStories;
