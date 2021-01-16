@@ -27,7 +27,9 @@ const PostPreview = ({ title, coverImage, date, excerpt, author, slug }: Props) 
       <div className="text-lg mb-4">
         <DateFormatter dateString={date} />
       </div>
-      <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
+      <Link as={`/posts/${slug}`} href="/posts/[slug]">
+        <a className="text-lg leading-relaxed mb-4">{excerpt}</a>
+      </Link>
       {/* <Avatar name={author.name} picture={author.picture} /> */}
     </div>
   );
