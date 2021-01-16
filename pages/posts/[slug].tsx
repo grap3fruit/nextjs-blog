@@ -12,6 +12,7 @@ import { CMS_NAME } from '../../lib/constants';
 import markdownToHtml from '../../lib/markdownToHtml';
 import PostType from '../../types/post';
 import Utterances from '../../components/uttarences';
+import SectionSeparator from '../../components/section-separator';
 
 type Props = {
   post: PostType;
@@ -46,6 +47,7 @@ const Post = ({ post, morePosts, preview }: Props) => {
                 author={post.author}
               />
               <PostBody content={post.content} />
+              <SectionSeparator />
               <Utterances />
             </article>
           </>
