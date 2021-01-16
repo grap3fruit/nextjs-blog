@@ -7,14 +7,16 @@ const Intro = () => {
         grap3fruit Blog
       </h1>
       <div className="flex">
-        <h3 className="mx-3 font-bold hover:underline">
-          <Link as={`/about`} href="/about">
-            About
-          </Link>
-        </h3>
+        <a
+          href="https://www.notion.so/About-c0484baf02b444ca849dba962fc05f13"
+          className="mx-3 text-xl font-bold hover:underline"
+          target="_blank"
+        >
+          About
+        </a>
         <a
           href={`https://github.com/grap3fruit`}
-          className="mx-3 font-bold hover:underline"
+          className="mx-3 text-xl font-bold hover:underline"
           target="_blank"
         >
           GitHub
