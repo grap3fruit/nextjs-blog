@@ -1,28 +1,4 @@
-import React, { Component, useEffect } from 'react';
-
-// export const Utterances = () => {
-//   const commentBox = React.createRef();
-
-//   useEffect(() => {
-//     const scriptEl = document.createElement('script');
-//     const utterancesConfig: { [key: string, string] } = {
-//       repo: 'grap3fruit/nextjs-blog',
-//       'issue-term': 'title',
-//       label: 'comment',
-//       theme: 'github-light',
-//       crossorigin: 'anonymous',
-//     };
-
-//     Object.keys(utterancesConfig).forEach((configKey: string) => {
-//       scriptEl.setAttribute(configKey, utterancesConfig[configKey]);
-//     });
-//     commentBox.current.appendChild(scriptEl);
-//   }, []);
-
-//   return <div className="utterances" ref={commentBox} />;
-// };
-
-// export default Utterances;
+import React from 'react';
 
 const Utterances: React.FC = () => (
   <section
