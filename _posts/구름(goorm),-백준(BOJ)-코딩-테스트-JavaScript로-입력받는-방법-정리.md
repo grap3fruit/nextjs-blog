@@ -5,7 +5,7 @@ coverImage: '/assets/blog/thumbnail/js_logo.png'
 date: '2021-01-16T13:02:00.000Z'
 author:
   name: SoonWon Kwon
-  picture: '/assets/blog/authors/tim.jpeg'
+  picture: '/assets/blog/authors/sw-pb.jpg'
 ogImage:
   url: '/assets/blog/thumbnail/js_logo.png'
 ---
