@@ -20,7 +20,7 @@
 }
 
 .markdown {
-  @apply text-gray-900 leading-normal break-words text-lg;
+  @apply text-gray-900 leading-relaxed break-words text-lg;
 }
 
 .markdown > * + * {
