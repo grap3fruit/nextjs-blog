@@ -32,3 +32,6 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# temp_content
+/_posts_temp
