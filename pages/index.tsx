@@ -7,6 +7,7 @@ import Head from 'next/head';
 import { CMS_NAME } from '../lib/constants';
 import Post from '../types/post';
 import Header from '../components/header';
+import Introduce from '../components/introduce';
 
 type Props = {
   allPosts: Post[];
@@ -19,6 +20,10 @@ const Index = ({ allPosts }: Props) => {
     <Layout>
       <Head>
         <title>grap3fruit blog</title>
+        <meta
+          name="google-site-verification"
+          content="-Lu4Wqz-PdQMoyBmazJ9cmqj0Zbu4KqNDy2O8NGL8lU"
+        />
       </Head>
       <Container>
         <Header />
@@ -33,6 +38,7 @@ const Index = ({ allPosts }: Props) => {
             />
           )}
           {morePosts.length > 0 && <MoreStories posts={morePosts} />} */}
+        <Introduce />
         <MoreStories posts={allPosts} />
       </Container>
     </Layout>
