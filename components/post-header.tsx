@@ -13,29 +13,23 @@ type Props = {
 
 const PostHeader = ({ title, coverImage, date, author }: Props) => {
   return (
-    <>
+    <div className="max-w-4xl mx-auto">
       <PostTitle>{title}</PostTitle>
-      <div className="hidden md:flex md:mb-12">
+      <div className="flex mb-6 md:mb-12">
         <div className="">
           <Avatar name={author.name} picture={author.picture} />
         </div>
-        <p className="md:mt-3 ml-3 md text-lg">·</p>
-        <div className="md:mt-3 ml-3 md text-lg">
+        <p className="ml-3 text-lg flex items-center">·</p>
+        <div className="ml-3 text-lg flex items-center">
           <DateFormatter dateString={date} />
         </div>
       </div>
-      <div className="max-w-4xl mb-8 md:mb-16 mx-auto">
+      <div className="flex justify-between mb-6 md:mb-12 mx-auto">
+        <div></div>
         <CoverImage title={title} src={coverImage} />
+        <div></div>
       </div>
-      <div className="max-w-2xl mx-auto">
-        <div className="block md:hidden mb-6">
-          <Avatar name={author.name} picture={author.picture} />
-        </div>
-        <div className="block md:hidden mb-6 text-lg">
-          <DateFormatter dateString={date} />
-        </div>
-      </div>
-    </>
+    </div>
   );
 };
 

@@ -1,7 +1,7 @@
 ---
 title: '구름(goorm), 백준(BOJ) 코딩 테스트 JavaScript로 입력받는 방법 정리'
 excerpt: '최근 프론트엔드(FE)직무로 취업을 준비하면서, 몇몇 기업은 코딩테스트(이하 코테) 언어를 JavaScript로 제한하는 경우가 있었다. 이를 대비해 JavaScript로 알고리즘 문제들을 풀어보면서 느낀 점은 테스트 케이스 입력을 받는 코드가 처음에 굉장히 낯설다는 것이다.'
-coverImage: '/assets/blog/thumbnail/js_logo.png'
+coverImage: '/assets/blog/logo/logo.png'
 date: '2021-01-16T13:02:00.000Z'
 author:
   name: SoonWon Kwon
