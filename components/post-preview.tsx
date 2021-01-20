@@ -18,15 +18,8 @@ const PostPreview = ({ title, coverImage, date, excerpt, author, slug }: Props) 
   return (
     // <div className="flex mb-10">
     <Link as={`/posts/${slug}`} href="/posts/[slug]">
-      <div
-        className={cn(
-          {
-            'hover:shadow-medium transition-shadow duration-200': slug,
-          },
-          'flex p-5 cursor-pointer'
-        )}
-      >
-        <div className="mb-5 hidden md:block md:w-1/3">
+      <div className="flex cursor-pointer">
+        <div className="hidden md:block md:w-1/3">
           <CoverImage slug={slug} title={title} src={coverImage} />
         </div>
         <div className="md:ml-10 md:w-2/3">
