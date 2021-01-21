@@ -34,4 +34,4 @@ yarn-error.log*
 .vercel
 
 # temp_content
-/_posts_temp
+/_posts/_temp
