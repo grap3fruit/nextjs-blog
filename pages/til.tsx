@@ -1,6 +1,5 @@
 import Container from '../components/container';
 import BlogPreviewList from '../components/blog-preview/blog-preview-list';
-import HeroPost from '../components/hero-post';
 import Layout from '../components/layout';
 import { getAllTilPosts } from '../lib/getTilPostApi';
 import Head from 'next/head';
