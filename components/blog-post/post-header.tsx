@@ -1,8 +1,8 @@
-import Avatar from './avatar';
-import DateFormatter from './date-formatter';
-import CoverImage from './cover-image';
+import Avatar from '../avatar';
+import DateFormatter from '../date-formatter';
+import PostCoverImage from './post-cover-image';
 import PostTitle from './post-title';
-import Author from '../types/author';
+import Author from '../../types/author';
 
 type Props = {
   title: string;
@@ -26,7 +26,7 @@ const PostHeader = ({ title, coverImage, date, author }: Props) => {
       </div>
       <div className="flex justify-between mb-6 md:mb-12 mx-auto">
         <div></div>
-        <CoverImage title={title} src={coverImage} />
+        <PostCoverImage title={title} src={coverImage} />
         <div></div>
       </div>
     </div>

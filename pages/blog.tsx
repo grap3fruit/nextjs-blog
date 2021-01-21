@@ -13,7 +13,7 @@ type Props = {
   allBlogPosts: Post[];
 };
 
-const Index = ({ allBlogPosts }: Props) => {
+const Blog = ({ allBlogPosts }: Props) => {
   return (
     <Layout>
       <Head>
@@ -25,14 +25,13 @@ const Index = ({ allBlogPosts }: Props) => {
       </Head>
       <Container>
         <Header />
-        {/* <Introduce /> */}
         <BlogPreviewList category={'blog'} posts={allBlogPosts} />
       </Container>
     </Layout>
   );
 };
 
-export default Index;
+export default Blog;
 
 export const getStaticProps = async () => {
   const allBlogPosts = getAllBlogPosts([
