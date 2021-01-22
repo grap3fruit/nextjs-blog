@@ -2,13 +2,13 @@
 title: 'JS 알고리즘 구현: 큐(Queue) 구현 vs Array 메서드(shift, splice) 사용했을때 속도 비교'
 excerpt: '알고리즘 코딩테스트에서 Queue 자료구조를 써야할때가 있습니다. 대표적으로 BFS를 구현할때죠. JavaScript의 라이브러리가 따로 없기 때문에, Array.shift() 또는 Array.splice(0,1) 등 array 메소드를 활용하여 큐 처럼 사용할 수 있습니다.
 하지만 이런 방식을 통해 효율성을 판단하는 코딩테스트 문제를 무사히 통과할 수 있을지 의문이 들었는데요. 그래서 직접 Queue를 구현하고, Array.shift, Array.splice와의 속도를 비교하는 실험을 진행해보았습니다.'
-coverImage: '/assets/blog/thumbnail/js_logo.png'
+coverImage: '/assets/blog/cover/js_logo.png'
 date: '2021-01-16T14:42:00.000Z'
 author:
   name: SoonWon Kwon
   picture: '/assets/blog/authors/sw-pb.jpg'
 ogImage:
-  url: '/assets/blog/thumbnail/js_logo.png'
+  url: '/assets/blog/cover/js_logo.png'
 ---
 
 # 개요

@@ -1,13 +1,13 @@
 ---
 title: '[알고리즘-JS] boj 2630번 색종이 만들기'
 excerpt: '문제 : https://www.acmicpc.net/problem/2630 경우의 수는 N, N/2, N/4 ... 로 가면서 N/a === 1 까지. 큰것부터 비교해서 점점 작게 비교한다. 전체 data와 N/a (==size)를 `checkColor` 함수가 넘겨 받는다. n _ n 을 돌면서, size _ size 만큼 체크하고, data 끝까지 수행한다.'
-coverImage: '/assets/blog/thumbnail/js_logo.png'
+coverImage: '/assets/blog/cover/js_logo.png'
 date: '2021-01-21T23:12:00.000Z'
 author:
   name: SoonWon Kwon
   picture: '/assets/blog/authors/sw-pb.jpg'
 ogImage:
-  url: '/assets/blog/thumbnail/js_logo.png'
+  url: '/assets/blog/cover/js_logo.png'
 ---
 
 > 문제 : https://www.acmicpc.net/problem/2630
