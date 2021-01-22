@@ -17,10 +17,6 @@ const Blog = ({ allTILPosts }: Props) => {
     <Layout>
       <Head>
         <title>grap3fruit blog</title>
-        <meta
-          name="google-site-verification"
-          content="-Lu4Wqz-PdQMoyBmazJ9cmqj0Zbu4KqNDy2O8NGL8lU"
-        />
       </Head>
       <Container>
         <Header />

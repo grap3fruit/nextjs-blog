@@ -21,6 +21,10 @@ const Index = ({ allBlogPosts }: Props) => {
           name="google-site-verification"
           content="-Lu4Wqz-PdQMoyBmazJ9cmqj0Zbu4KqNDy2O8NGL8lU"
         />
+        <meta
+          name="google-site-verification"
+          content="kteodmyS3_P0RsVBVeqK3DTW-V4_9MSId940BnXIkZY"
+        />
       </Head>
       <Container>
         <Header />
