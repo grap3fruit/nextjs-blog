@@ -69,7 +69,7 @@ const readline = require('readline');
 
 만약 아래와 같은 테스트케이스가 주어졌다고 보자.
 
-```
+```plain
 2
 5 3
 1 0 0 1 0
@@ -160,7 +160,7 @@ console.log(input);
 
 ### test case
 
-```
+```plain
 good morning
 hello world!
 ```
@@ -178,7 +178,7 @@ hello world!
 
 ### 한줄 입력
 
-```
+```plain
 
 case 1
 
@@ -199,7 +199,7 @@ hello world
 
 ### 여러줄 입력
 
-```
+```plain
 case 1
 
 5
@@ -494,7 +494,7 @@ solution(N, info, data);
 
 `data.push(line);`
 
-```
+```plain
 10 -> ['10']
 2 3 -> ['2 3']
 abcd -> ['abcd']
@@ -503,7 +503,7 @@ hello world -> ['hello world']
 
 `data = line.split('').map((el) => el);`
 
-```
+```plain
 10 -> ['1','0']
 2 3 -> ['2', ' ' ,'3']
 abcd -> ['a', 'b', 'c', 'd']
@@ -512,7 +512,7 @@ hello world -> ['h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd']
 
 `data = line.split(' ').map((el) => el);`
 
-```
+```plain
 10 -> ['10']
 2 3 -> ['2', '3']
 abcd -> ['abcd']
@@ -521,7 +521,7 @@ hello world -> ['hello', 'world']
 
 `data = line.split('').map((el) => +el);`
 
-```
+```plain
 10 -> [1, 0]
 2 3 -> [2, 0, 3]
 abcd -> [ NaN, NaN, NaN, NaN ]
@@ -538,7 +538,7 @@ hello world -> [ NaN, NaN, NaN, NaN, NaN, 0, NaN, NaN, NaN, NaN, NaN ]
 
 `data = line.split(' ').map((el) => +el);`
 
-```
+```plain
 1 2 3
 3 4 5
 5 6 7
@@ -557,7 +557,7 @@ hello world -> [ NaN, NaN, NaN, NaN, NaN, 0, NaN, NaN, NaN, NaN, NaN ]
 자 여기까지 읽었다면, 이제는 어떻게 입력을 받아야 하는지 감이 올 것이다.
 맨 앞에서 이야기한 이 테스트케이스를 입력받는 코드도 작성할 수 있지 않을까?
 
-```
+```plain
 2
 5 3
 1 0 0 1 0
