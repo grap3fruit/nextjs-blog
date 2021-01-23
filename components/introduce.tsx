@@ -2,7 +2,7 @@ const Introduce = () => {
   return (
     <section className="">
       <img
-        className="object-cover h-96 min-w-min ml-auto mr-auto"
+        className="object-cover h-96 min-w-full sm:min-w-max md:min-w-max ml-auto mr-auto"
         src="/assets/blog/cover/logo.png"
       />
       <div className="mb-5 text-2xl">안녕하세요! grap3fruit의 블로그 입니다.</div>
