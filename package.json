@@ -8,9 +8,11 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@types/highlightjs": "^10.1.0",
     "classnames": "2.2.6",
     "date-fns": "2.10.0",
     "gray-matter": "4.0.2",
+    "highlight.js": "^10.5.0",
     "next": "latest",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
