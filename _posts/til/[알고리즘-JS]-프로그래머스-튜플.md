@@ -2,9 +2,13 @@
 title: '[알고리즘-JS] 프로그래머스: 튜플'
 excerpt: '아이디어 & 구현.
 
-하나씩 가면서 넓혀보기. 최대한 넓힌 max 값을 리턴.'
+집합 길이에 따라서 가장 작은게 맨 앞이고
+
+그 다음 길이에 추가된게 다음꺼
+
+이런식으로 result 채우면 될듯 하다.'
 coverImage: '/assets/blog/cover/js_logo.png'
-date: '2021-12-31T00:00:00.000Z'
+date: '2020-12-31T00:00:00.000Z'
 author:
   name: SoonWon Kwon
   picture: '/assets/blog/authors/sw-pb.jpg'

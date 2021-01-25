@@ -4,7 +4,7 @@ excerpt: '아이디어 & 구현.
 
 하나씩 가면서 넓혀보기. 최대한 넓힌 max 값을 리턴.'
 coverImage: '/assets/blog/cover/js_logo.png'
-date: '2021-12-31T00:00:00.000Z'
+date: '2020-12-30T00:00:00.000Z'
 author:
   name: SoonWon Kwon
   picture: '/assets/blog/authors/sw-pb.jpg'
