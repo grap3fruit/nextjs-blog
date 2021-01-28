@@ -5,7 +5,7 @@ const Header = () => {
     <section className="flex-col md:flex-row flex items-center md:justify-between mt-10 mb-10">
       <h1 className="text-3xl md:text-3xl font-bold tracking-tighter leading-tight md:pr-8 mb-3 md:mb-0">
         <Link href="/">
-          <a className="">grap3fruit.dev</a>
+          <a className="">grap3fruit</a>
         </Link>
       </h1>
       <div className="flex">
