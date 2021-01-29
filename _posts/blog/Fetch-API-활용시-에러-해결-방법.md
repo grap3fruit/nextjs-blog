@@ -95,6 +95,6 @@ CORS에 대한 내용은 이 글에서 설명하기에는 내용이 좀 길어�
 
 ## 참고
 
-[https://developer.mozilla.org/ko/docs/Web/API/Fetch*API/Fetch의*사용법](https://developer.mozilla.org/ko/docs/Web/API/Fetch_API/Fetch%EC%9D%98_%EC%82%AC%EC%9A%A9%EB%B2%95)
-
-[https://evan-moon.github.io/2020/05/21/about-cors/](https://evan-moon.github.io/2020/05/21/about-cors/)
+[https://developer.mozilla.org/ko/docs/Web/API/Fetch*API/Fetch의*사용법](https://developer.mozilla.org/ko/docs/Web/API/Fetch_API/Fetch%EC%9D%98_%EC%82%AC%EC%9A%A9%EB%B2%95)  
+[https://evan-moon.github.io/2020/05/21/about-cors/](https://evan-moon.github.io/2020/05/21/about-cors/)  
+[https://expressjs.com/en/resources/middleware/cors.html](https://expressjs.com/en/resources/middleware/cors.html)
