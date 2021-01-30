@@ -19,6 +19,10 @@
   padding-bottom: 0.125rem;
 }
 
+.utterances {
+  @apply mt-8;
+}
+
 .markdown {
   @apply text-gray-900 leading-relaxed break-words text-lg;
 }
@@ -48,11 +52,11 @@
 }
 
 .markdown h1 {
-  @apply leading-tight border-b text-4xl font-semibold mb-4 mt-6 pb-2;
+  @apply leading-tight border-b text-4xl font-semibold mb-4 mt-10 pb-2;
 }
 
 .markdown h2 {
-  @apply leading-tight border-b text-2xl font-semibold mb-4 mt-6 pb-2;
+  @apply leading-tight border-b text-2xl font-semibold mb-4 mt-10 pb-2;
 }
 
 .markdown h3 {
