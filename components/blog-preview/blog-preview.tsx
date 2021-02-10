@@ -17,7 +17,7 @@ type Props = {
 
 const BlogPreview = ({ title, coverImage, date, excerpt, author, slug, category }: Props) => {
   return (
-    <Link as={`/posts/${category}/${slug}`} href={`/posts/${category}/${slug}`}>
+    <Link as={`/${category}/${slug}`} href={`/${category}/${slug}`}>
       <div className="flex cursor-pointer hover:bg-gray-50 text-black hover:text-opacity-80 mt-10 mb-10">
         <div className="hidden md:block md:w-1/3">
           <PreviewCoverImage slug={slug} title={title} src={coverImage} />
