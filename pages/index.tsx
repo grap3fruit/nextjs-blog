@@ -21,7 +21,7 @@ const Index = ({ allBlogPosts }: Props) => {
       <Container>
         <Header />
         <Introduce />
-        {/* <BlogPreviewList category={'blog'} posts={allBlogPosts} /> */}
+        <BlogPreviewList category={'blog'} posts={allBlogPosts} />
       </Container>
     </Layout>
   );
