@@ -32,7 +32,7 @@
 } */
 
 .markdown {
-  @apply text-darkmode-title leading-relaxed break-words text-lg;
+  @apply text-darkmode-title leading-relaxed break-words text-base;
 }
 
 .markdown > * + * {
