@@ -10,7 +10,7 @@ type Props = {
 const BlogPreviewList = ({ category, posts }: Props) => {
   return (
     <section>
-      <div className="mb-32 max-w-5xl">
+      <div className="max-w-5xl">
         {posts.map((post) => (
           <div key={post.slug + 'div'}>
             <PostPreview

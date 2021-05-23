@@ -18,9 +18,10 @@ const Meta = () => {
       <meta name="google-site-verification" content="kteodmyS3_P0RsVBVeqK3DTW-V4_9MSId940BnXIkZY" />
       <link
         rel="stylesheet"
-        href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/stackoverflow-light.min.css"
+        href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/atom-one-dark.min.css"
       />
       <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/typescript.min.js"></script>
       <script>hljs.initHighlightingOnLoad();</script>
     </Head>
   );

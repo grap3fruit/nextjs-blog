@@ -23,8 +23,16 @@
   @apply mt-8;
 }
 
+.post-preview {
+  @apply flex cursor-pointer mt-10 mb-10 hover:text-opacity-80;
+}
+
+/* .post-preview h3 {
+  @apply hover:text-blue-400;
+} */
+
 .markdown {
-  @apply text-gray-900 leading-relaxed break-words text-lg;
+  @apply text-darkmode-title leading-relaxed break-words text-lg;
 }
 
 .markdown > * + * {
@@ -44,7 +52,7 @@
 }
 
 .markdown a {
-  @apply text-blue-600 font-semibold;
+  @apply text-blue-400 font-semibold;
 }
 
 .markdown strong a {
@@ -52,11 +60,11 @@
 }
 
 .markdown h1 {
-  @apply leading-tight border-b text-4xl font-semibold mb-4 mt-10 pb-2;
+  @apply leading-tight border-b border-darkmode-separator text-4xl font-semibold mb-4 mt-12 pb-2;
 }
 
 .markdown h2 {
-  @apply leading-tight border-b text-2xl font-semibold mb-4 mt-10 pb-2;
+  @apply leading-tight text-2xl font-semibold mb-4 mt-8 pb-2;
 }
 
 .markdown h3 {
@@ -76,16 +84,16 @@
 }
 
 .markdown blockquote {
-  @apply text-base border-l-4 border-gray-300 pl-4 pr-4 text-gray-600;
+  @apply text-base border-l-4 border-gray-300 pl-4 pr-4 text-darkmode-subtitle;
 }
 
 .markdown code {
-  @apply font-mono text-sm inline bg-gray-200 rounded px-1 py-05;
+  @apply font-mono text-sm inline bg-darkmode-code rounded px-1 py-05;
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New;
 }
 
 .markdown pre {
-  @apply bg-gray-100 rounded p-4;
+  @apply bg-darkmode-code rounded p-4;
 }
 
 .markdown pre code {

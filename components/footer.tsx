@@ -3,11 +3,11 @@ import { EXAMPLE_PATH } from '../lib/constants';
 
 const Footer = () => {
   return (
-    <footer className="bg-accent-1 border-t border-accent-2">
+    <footer className="bg-darkmode-background border-t border-darkmode-separator">
       <Container>
         <div className="py-28 flex flex-col lg:flex-row items-center justify-between">
           <div></div>
-          <h3 className="text-sm tracking-tighter leading-tight text-center">
+          <h3 className="text-sm tracking-tighter leading-tight text-center text-darkmode-subtitle">
             Copyright 2021. Soonwon Kwon all rights reserved.
           </h3>
           <div></div>

@@ -8,6 +8,11 @@ module.exports = {
         'accent-7': '#333',
         success: '#0070f3',
         cyan: '#79FFE1',
+        'darkmode-background': '#303337',
+        'darkmode-title': '#f5f5f5',
+        'darkmode-subtitle': '#aaa',
+        'darkmode-separator': '#404347',
+        'darkmode-code': '#252526',
       },
       spacing: {
         28: '7rem',
